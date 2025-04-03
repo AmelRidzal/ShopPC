@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane minHeight="720.0" minWidth="1080.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <ImageView accessibleRole="MENU" blendMode="SRC_ATOP" cache="true" cacheHint="SCALE" fitHeight="720.0" layoutY="-1.0" mouseTransparent="true" preserveRatio="true" translateX="1.0" translateY="1.0" translateZ="1.0">
+      <Image url="@profile_background.jpg" />
+   </ImageView>
+   <AnchorPane layoutX="502.0" layoutY="206.0" maxHeight="477.0" maxWidth="220.0" minHeight="431.0" minWidth="220.0" prefHeight="477.0" prefWidth="220.0">
+      <TextField fx:id="EmailField" layoutX="-1.0" layoutY="98.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="26.0" prefWidth="220.0" />
+      <Text layoutY="57.0" stroke="WHITE" strokeType="OUTSIDE" text="Welcome" textAlignment="CENTER" wrappingWidth="217.59999999999997">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="PassField" layoutY="142.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.8" prefHeight="26.0" prefWidth="220.0" />
+      <Text fontSmoothingType="LCD" layoutX="2.0" layoutY="138.0" stroke="WHITE" strokeType="OUTSIDE" text="Password" />
+      <Text layoutX="-1.0" layoutY="94.0" stroke="WHITE" strokeType="OUTSIDE" text="Email" />
+      <Button layoutX="54.0" layoutY="212.0" mnemonicParsing="false" onAction="#onLoginButtonClick" opacity="0.7" text="Log in">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Text id="279e" fx:id="LoginError" fill="RED" fontSmoothingType="LCD" layoutY="297.0" stroke="RED" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="219.9999999999999">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Text id="279e" fontSmoothingType="LCD" layoutX="-1.0" layoutY="360.0" stroke="WHITE" strokeType="OUTSIDE" text="Dont have an acc" textAlignment="CENTER" wrappingWidth="219.9999999999999">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="51.0" layoutY="365.0" mnemonicParsing="false" onAction="#onSignUpButtonClick" opacity="0.7" text="Sign up">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </AnchorPane>
+</Pane>

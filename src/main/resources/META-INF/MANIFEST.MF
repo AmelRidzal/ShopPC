@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Main-Class: ba.unsa.etf.rpr.Launcher
+Class-Path: javafx-graphics-19-ea+7-win.jar jackson-databind-2.14.2.jar 
+ woodstox-core-6.5.0.jar javafx-fxml-19.jar annotations-13.0.jar fxgl-en
+ tity-17.1.jar javafx-swing-17.0.2-win.jar fxgl-scene-17.1.jar javafx-me
+ dia-19-ea+7.jar kotlin-stdlib-1.5.32-modular.jar protobuf-java-3.19.4.j
+ ar fxgl-gameplay-17.1.jar byte-buddy-agent-1.12.19.jar javafx-base-19-e
+ a+7-win.jar jackson-dataformat-xml-2.14.2.jar mysql-connector-j-8.0.31.
+ jar javafx-controls-19-win.jar mockito-inline-4.11.0.jar jackson-annota
+ tions-2.14.2.jar javafx-controls-19.jar javafx-graphics-19-ea+7.jar sta
+ x2-api-4.2.1.jar jackson-core-2.13.3.jar fxgl-core-17.1.jar javafx-base
+ -19-ea+7.jar controlsfx-11.1.2.jar ikonli-javafx-12.3.1.jar fxgl-io-17.
+ 1.jar mockito-core-4.11.0.jar javafx-swing-17.0.2.jar ikonli-core-12.3.
+ 1.jar commons-lang3-3.12.0.jar byte-buddy-1.12.19.jar storage-4.0.13.ja
+ r fxgl-17.1.jar objenesis-3.3.jar kotlin-stdlib-common-1.5.32.jar javaf
+ x-media-19-ea+7-win.jar mysql-connector-java-8.0.25.jar lifecycle-4.0.1
+ 3.jar javafx-web-19-ea+7.jar validatorfx-0.4.0.jar bootstrapfx-core-0.4
+ .0.jar audio-4.0.13.jar commons-cli-1.5.0.jar formsfx-core-11.5.0.jar j
+ avafx-fxml-19-win.jar javafx-web-19-ea+7-win.jar util-4.0.13.jar
+
